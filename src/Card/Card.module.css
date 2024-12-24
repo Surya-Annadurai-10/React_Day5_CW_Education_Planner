@@ -1,0 +1,48 @@
+.container_card{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    margin: 1rem 0;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.add ,.minus{
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.692);
+    border: none;
+}
+
+.minus{
+    background-color: rgba(255, 0, 0, 0.692);
+}
+
+.buttons{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 1rem;
+/* background-color: red; */
+}
+
+.container_card > div:nth-child(1),
+.container_card > div:nth-child(2){
+    width: 33%;
+    display: grid;
+    place-items: center;
+    /* height: 100%; */
+    /* background-color: red; */
+}
