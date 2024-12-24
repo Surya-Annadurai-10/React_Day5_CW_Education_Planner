@@ -5,8 +5,11 @@ import styles from './myComponents.module.css'
 const MyComponents = () =>{
 return (
     <>
+    <div className={styles.main}>
     <Header />
     <MainContent />
+    </div>
+  
     </>
 )
 }
